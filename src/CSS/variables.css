@@ -1,0 +1,40 @@
+:root {
+    --color-1: #fd8db0;
+    --color-2: #ffbbd1;
+    --color-3: #f1f1f1;
+    --color-4: #000000;
+    --color-5: #ff3273;
+
+    --color-footer: #cf6f8d;
+    --color-footer-2: #a03c5c;
+
+    --color-shadow-1: rgba(0, 0, 0, 0.5);
+    --color-shadow-2: rgba(0, 0, 0, 0.2);
+
+    --font-1: 'Poppins', sans-serif;
+    --font-2: 'Quicksand', sans-serif;
+
+    --font-color-1: #ffffff;
+    --font-color-2: #000000;
+
+
+    --font-size-title: 3.5rem;
+    --font-size-paragraphs: 1.4rem;
+
+    --font-size-title-mobile: 2rem;
+    --font-size-paragraphs-mobile: 1rem;
+
+    --font-size-footer: 1.1rem;
+
+    --font-weight-1: 700;
+    --font-weight-2: 500;
+    --font-weight-3: 300;
+    --font-weight-4: 100;
+
+    --text-shadow-1: 5px 5px 1px var(--color-1);
+    --text-shadow-2: 2px 2px 1px var(--color-1);
+
+    --text-shadow-1-mobile: 2px 2px 1px var(--color-1);
+    --text-shadow-2-mobile: 1px 1px 1px var(--color-1);
+
+}

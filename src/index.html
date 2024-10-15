@@ -4,8 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lady Laços</title>
+
+    <link rel="shortcut icon" href="./Img/icone-laco.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/variables.css">
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="#home"><img src="./Img/Img_navbar/Logo__ladylaco__navbar.png" alt=""></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="./indexProdutos.html" class="nav-link">Produtos</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./Img/Img_navbar/cardapio.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <main> 
+        <section class="container__home" id="home">
+            <h1>Lady Laços</h1>
+            <p>Prepare-se para descobrir um mundo de encantos e delicadezas!</p>
+            <a href="#sobre">Conheça mais!</a>
+
+        </section>
+
+        <section class="container__sobre" id="sobre">
+            <div class="container__sobre__text">
+                <h1>Sobre a Lady Laços</h1>
+
+                <p>
+                    Fundada em 2020, a Lady Laços nasceu com o propósito de trazer delicadeza e estilo para os momentos mais especiais da vida.
+                    <br>
+                    Com um olhar atento aos detalhes e uma paixão por produtos que encantam, nossa loja oferece uma ampla variedade de laços, roupas infantis, brinquedos, bolsas de maternidade e acessórios para cabelos, tanto para crianças quanto para adultos.
+                    <br>
+                    Cada item é cuidadosamente selecionado para garantir qualidade, conforto e aquele toque especial que faz toda a diferença.
+                    <br>
+                    Aqui na Lady Laços, acreditamos que cada acessório tem o poder de transformar um visual e trazer sorrisos, seja no dia a dia ou em ocasiões únicas.
+                    <br>
+                    Seja para a sua pequena ou para você, nossos produtos são pensados para agregar beleza e praticidade, sempre com um toque de carinho. 
+                    <br>
+                    Explore o nosso universo de laços e muito mais!
+                </p>
+            </div>
+
+            <div class="container__sobre__img">
+            </div>
+        </section>
+
+        <section class="container__contato" id="contato">
+                <div class="container__contato__text">
+                    <h1>Contato</h1>
+
+                    <p>
+                        Seja para a sua pequena ou para você, nossos produtos são pensados para agregar beleza e praticidade, sempre com um toque de carinho.
+                        <br>
+                        Explore o nosso universo de laços e muito mais!
+                    </p>
+                </div>
+
+                <div class="container__contato__social">
+                    <a href="" target="_blank">Whatsapp</a>
+                    <a href="https://www.instagram.com/lady.lacos_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+                </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="container__footer">
+            <div class="container__footer__logo">
+                <a href="#home">Lady Laços</a>
+            </div>
+
+            <div class="container__footer__menu">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="./indexProdutos.html">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="container__footer__menu">
+                <ul>
+                    <li><a href="https://www.instagram.com/elainetenorio_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Quem é a dona?</a></li>
+                    <li><a href="#">Precisa de ajuda?</a></li>
+                    <li><a href="#">Quem desenvolveu este site?</a></li>
+                </ul>
+            </div>
+
+            <div class="container__footer__social">
+                <ul>
+                    <li><a href="https://www.instagram.com/lady.lacos_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-instagram fa-lg" style="color: var(--font-color-1);"></i> Instagram</a></li>
+                    <li><a href=""><i class="fa-brands fa-whatsapp fa-lg" style="color: var(--font-color-1);"   ></i> Whatsapp</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container__copyright">
+            <p>&copy; 2023 Lady Laços. Todos os direitos reservados.</p>
+        </div>
+        
+    </footer>
+
+    <script src="./JS/navbar.js"></script>
+
 </body>
 </html>
