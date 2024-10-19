@@ -1,0 +1,240 @@
+.container__home {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../Img/Img_produtos/Img_bg_produtos.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.container__home__text {
+    width: 60vw;
+    text-align: center;
+}
+
+.container__home__text h1 {
+    font-family: var(--font-2);
+    font-size: var(--font-size-title);
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-1);
+    text-shadow: var(--text-shadow-3);
+    font-weight: var(--font-weight-1);
+}
+
+.container__home__text p {
+    font-family: var(--font-1);
+    font-size: var(--font-size-paragraphs);
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-2);
+    padding: 2rem 0;
+    line-height: 1.5;
+}
+
+.container__home__cards {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 2rem;
+    background-color: var(--color-2);
+    border-radius: 10px;
+    box-shadow: 6px 6px 1px var(--color-1);
+    text-align: center;
+}
+
+.card h1 {
+    font-family: var(--font-2);
+    font-size: 1.5rem;
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-1);
+    text-shadow: var(--text-shadow-2);
+    font-weight: var(--font-weight-1);
+}
+
+.card p {
+    font-family: var(--font-1);
+    font-size: 1.1rem;
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-3);
+    text-shadow: var(--text-shadow-2);
+}
+
+.card a {
+    font-family: var(--font-1);
+    font-size: 1.2rem;
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-2);
+    text-shadow: var(--text-shadow-2);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-1);
+}
+
+.card a:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 1px var(--color-3);
+    transition: 0.5s;
+}
+
+/* Produtos */
+
+.container__produtos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Produtos lacos */
+
+.container__lacos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg-2);
+    padding: 8rem 0;
+}
+
+.container__lacos__text {
+    width: 50vw;
+}
+
+.container__lacos__text h1 {
+    font-family: var(--font-2);
+    font-size: var(--font-size-title);
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-1);
+    text-shadow: var(--text-shadow-1);
+    font-weight: var(--font-weight-1);
+}
+
+.container__lacos__text p {
+    font-family: var(--font-1);
+    font-size: var(--font-size-paragraphs);
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-2);
+    text-shadow: var(--text-shadow-2);
+    padding: 2rem 0; 
+    line-height: 1.5;
+}
+
+.container__lacos__text h2 {
+    font-family: var(--font-2);
+    font-size: var(--font-size-subtitle);
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-1);
+    text-shadow: var(--text-shadow-3);
+    font-weight: var(--font-weight-1);
+}
+
+.container__lacos__btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container__lacos__btns a {
+    font-family: var(--font-1);
+    font-size: var(--font-size-paragraphs);
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-2);
+    text-shadow: var(--text-shadow-2);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.6rem;
+    background-color: var(--color-1);
+}
+
+.container__lacos__btns a:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 1px var(--color-3);
+    transition: 0.5s;
+}
+
+
+
+.container__lacos__img {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.container__lacos__produto {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.container__lacos__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.container__lacos__img img:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* roupas */
+
+.container__roupas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg-1);
+    padding: 8rem 0;
+}
+
+.container__roupas__img {
+    width: 600px;
+    height: 600px;
+    display: flex;
+}
+
+.container__roupas__produto {
+   flex: 1;
+   cursor: pointer;
+   transition: flex 2s ease;
+}
+
+.container__roupas__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container__roupas__produto:hover {
+    flex: 3;
+    transition: flex 1s ease;
+}
+
+.container__lacos__text--right {
+    padding-left: 3rem;
+}

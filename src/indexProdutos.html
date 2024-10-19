@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/variables.css">
     <link rel="stylesheet" href="./CSS/navbar.css">
-
+    <link rel="stylesheet" href="./CSS/CSSprodutos/style.css">
     <link rel="stylesheet" href="./CSS/footer.css">
 </head>
 <body>
@@ -39,15 +39,109 @@
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
                 <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
+                <li class="nav-item"><a href="#produtos" class="nav-link">Produtos</a></li>
                 <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
             </ul>
         </div>
     </header>
     <main> 
-        
+        <section class="container__home" id="home">
+
+            <div class="container__home__text">
+                <h1>Encante-se com nossos produtos!</h1>
+                <p>Na Lady Laços, você encontra uma seleção especial pensada para deixar os momentos da sua família ainda mais mágicos. Dos laços cheios de charme às roupas confortáveis e estilosas, passando por acessórios para todas as idades, cada item foi escolhido com carinho para trazer beleza e praticidade ao dia a dia. Explore nossas categorias e encontre o que mais combina com você!</p>
+            </div>
+            
+            <div class="container__home__cards">
+                <div class="card">
+                    <h1>Laços</h1>
+                    <p>Descubra nossos laços feitos para transformar qualquer visual com um toque de fofura!</p>
+                    <a href="#lacos">Ver Laços</a>
+                </div>
+                <div class="card">
+                    <h1>Roupas Infantis</h1>
+                    <p>Do casual ao elegante, nossas roupas infantis têm tudo o que os pequenos precisam para brilhar.</p>
+                    <a href="">Ver Roupas</a>
+                </div>
+                <div class="card">
+                    <h1>Acessórios</h1>
+                    <p>Complete o look com acessórios que fazem toda a diferença, para crianças e adultos.</p>
+                    <a href="">Ver Acessórios</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container__produtos" id="produtos">
+            <div class="container__lacos">
+                <div class="container__lacos__text">
+                    <h1>Laços cheios de charme para todas as ocasiões!</h1>
+
+                    <p>Na Lady Laços, cada laço é pensado para trazer delicadeza e estilo, seja no dia a dia ou em momentos especiais. Nossos laços são perfeitos para complementar o visual das pequenas e também das adultas, sempre com um toque de fofura e elegância.
+                    <br>
+                    As fotos ao lado são apenas ilustrativas, mostrando um pouquinho do que oferecemos. Temos uma grande variedade de modelos disponíveis que você pode conferir no nosso Instagram ou falar diretamente com a gente pelo WhatsApp.</p>
+
+                    <h2>Quer ver mais opções?</h2>
+                    <p>💖 Explore toda nossa coleção e escolha seu favorito!</p>
+
+                    <div class="container__lacos__btns">
+                        <a href="">Instagram</a>
+                        <a href="">WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="container__lacos__img">
+                    <div class="container__lacos__produto">
+                        <img src="./Img/Img_produtos/Img_laco_produ1.jpeg" alt="">
+                    </div>
+                    <div class="container__lacos__produto">
+                        <img src="./Img/Img_produtos/Img_laco_produ2.jpeg" alt="">
+                    </div>
+                    <div class="container__lacos__produto">
+                        <img src="./Img/Img_produtos/Img_laco_produ3.jpeg" alt="">
+                    </div>
+                    <div class="container__lacos__produto">
+                        <img src="./Img/Img_produtos/Img_laco_produ4.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container__roupas">
+                <div class="container__roupas__img">
+                    <div class="container__roupas__produto">
+                        <img src="./Img/Img_produtos/Img_roupa1.jpeg" alt="">
+                    </div>
+                    <div class="container__roupas__produto">
+                        <img src="./Img/Img_produtos/Img_roupa2.jpeg" alt="">
+                    </div>
+                    <div class="container__roupas__produto">
+                        <img src="./Img/Img_produtos/Img_roupa3.jpeg" alt="">
+                    </div>
+                    <div class="container__roupas__produto">
+                        <img src="./Img/Img_produtos/Img_roupa4.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="container__lacos__text container__lacos__text--right">
+                    <h1>Roupas confortáveis e cheias de estilo para os pequenos!</h1>
+
+                    <p>Nossa seleção de roupas infantis foi feita para unir conforto, praticidade e muito estilo. Na Lady Laços, cada peça é pensada para acompanhar as crianças em todos os momentos, desde as brincadeiras até as ocasiões mais especiais.
+                        <br>
+                    As fotos ao lado são apenas ilustrativas e mostram um pouquinho das opções que temos. Quer ver mais? No nosso Instagram você encontra todos os modelos disponíveis, e pode falar diretamente com a gente pelo WhatsApp para escolher o que mais combina com o seu pequeno ou pequena!</p>
+
+                    <h2>👗Quer ver mais opções?</h2>
+                    <p>Explore a nossa coleção completa e encontre o look perfeito!</p>
+
+                    <div class="container__lacos__btns">
+                        <a href="">Instagram</a>
+                        <a href="">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
     <footer>
         <div class="container__footer">
@@ -88,5 +182,8 @@
 
     <script src="./JS/navbar.js"></script>
 
+    <div class="loanhardem">
+
+    </div>
 </body>
 </html>
