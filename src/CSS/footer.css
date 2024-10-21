@@ -15,14 +15,8 @@ footer {
     padding: 2rem 0;
 }
 
-.container__footer__logo a {    
-    font-family: var(--font-2);
-    font-size: var(--font-size-title);
-    color: var(--font-color-1);
-    font-weight: var(--font-weight-1);
-    text-shadow: var(--text-shadow-1);
-    font-weight: var(--font-weight-1);
-    text-decoration: none;
+.container__footer__logo a img {    
+    width: 300px;
 }
 
 .container__footer__logo a:hover {

@@ -6,9 +6,9 @@
     --color-5: #ff3273;
 
     --color-bg-1: #ffbbd1;
-    --color-bg-2: #f1e0be;
+    --color-bg-2: #eea8b9;
 
-    --color-footer: #cf6f8d;
+    --color-footer: #cf6f87;
     --color-footer-2: #a03c5c;
 
     --color-shadow-1: rgba(0, 0, 0, 0.5);
@@ -39,6 +39,7 @@
     --text-shadow-1: 5px 5px 1px var(--color-1);
     --text-shadow-2: 2px 2px 1px var(--color-1);
     --text-shadow-3: 3px 3px 1px var(--color-1);
+    --text-shadow-4: 1px 1px 1px var(--color-1);
 
     --text-shadow-1-mobile: 2px 2px 1px var(--color-1);
     --text-shadow-2-mobile: 1px 1px 1px var(--color-1);

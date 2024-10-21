@@ -38,11 +38,12 @@
     width: 90vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 3rem;
 }
 
 .card {
-    width: 15vw;
+    width: 10vw;
     height: 15vw;
     display: flex;
     flex-direction: column;
@@ -50,10 +51,15 @@
     justify-content: center;
     gap: 2rem;
     padding: 2rem 2rem;
-    background-color: var(--color-2);
+    background-color: var(--color-1);
     border-radius: 10px;
-    box-shadow: 6px 6px 1px var(--color-1);
     text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    background-color: #ffffff3a;
+    transition: 0.5s;
 }
 
 .card h1 {
@@ -70,7 +76,7 @@
     font-size: 1.1rem;
     color: var(--font-color-1);
     font-weight: var(--font-weight-3);
-    text-shadow: var(--text-shadow-2);
+    text-shadow: var(--text-shadow-4);
 }
 
 .card a {
@@ -91,6 +97,44 @@
     transition: 0.5s;
 }
 
+.container__home__links__mobile {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .container__home__text {
+        width: 90vw;
+    }
+    .container__home__text h1 {
+        font-size: var(--font-size-title-mobile);
+    }
+    .container__home__text p {
+        font-size: var(--font-size-paragraphs-mobile);
+    }
+    .container__home__cards {
+        display: none;
+    }
+    .container__home__links__mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .container__home__links__mobile a {
+        width: 200px;
+        font-family: var(--font-1);
+        font-size: var(--font-size-paragraphs-mobile);
+        font-weight: var(--font-weight-2);
+        text-decoration: none;
+        text-align: center;
+        color: var(--font-color-1);
+        padding: 0.5rem 0;
+        border-radius: 0.5rem;
+        background-color: var(--color-1);
+    }
+ }
+
 /* Produtos */
 
 .container__produtos {
@@ -100,6 +144,56 @@
     align-items: center;
     justify-content: center;
 }
+
+/* Produtos transitions */
+
+.container__transitions {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12rem 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.container__transitions__filter {
+    position: absolute; /* Permite que a div ocupe toda a área do container */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__transitions  h1 {
+    font-family: var(--font-2);
+    font-size: var(--font-size-subtitle);
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-1);
+    text-shadow: var(--text-shadow-3);
+    font-weight: var(--font-weight-1);
+    text-align: center;
+}
+
+.bg__one {
+    background-image: url("../../Img/Img_produtos/Img_mar.png");
+}
+.bg__two {
+    background-image: url("../../Img/Img_produtos/Img_mar.png");
+}
+.bg__tree {
+    background-image: url("../../Img/Img_produtos/Img_mar.png");
+}
+
 
 /* Produtos lacos */
 
@@ -237,4 +331,68 @@
 
 .container__lacos__text--right {
     padding-left: 3rem;
+}
+
+/* Produtos acessorios */
+
+
+@media screen and (max-width: 730px) {
+    .container__transitions {
+        height: 15vh;
+    }
+    .container__transitions h1 {
+        font-size: 1.4rem;
+    }
+    .container__lacos, .container__roupas {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 4rem 0;
+    }
+    .container__lacos__text {
+        width: 90vw;
+    }
+    .container__lacos__text h1 {
+        font-size: var(--font-size-title-mobile);
+    }
+    .container__lacos__text p {
+        font-size: var(--font-size-paragraphs-mobile);
+    }
+    .container__lacos__text h2 {
+        font-size: var(--font-size-subtitle-mobile);
+    }
+    .container__lacos__btns {
+        align-items: center;
+        justify-content: center;
+    }
+    .container__lacos__btns a {
+        font-size: var(--font-size-paragraphs-mobile);
+    }
+    .container__lacos__img {
+        width: 350px;
+        height: 350px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+    .container__lacos__produto {
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+    .container__lacos__img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .container__roupas__img {
+        width: 100%;
+        height: 350px;
+    }
+    .container__lacos__text--right {
+        padding-left: 0;
+    }
 }
