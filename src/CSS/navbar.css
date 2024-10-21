@@ -41,7 +41,6 @@ header {
     font-family: var(--font-2);
     color: var(--color-3);
     font-weight: 700;
-    text-shadow: 1.5px 1.5px 1px var(--color-5);
     transition: 300ms;
 }
 

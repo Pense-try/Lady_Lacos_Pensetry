@@ -4,6 +4,7 @@
     background-image: url("../../Img/Img_produtos/Img_bg_produtos.png");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,7 +150,6 @@
 
 .container__transitions {
     width: 100%;
-    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,7 +167,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,13 +179,12 @@
     font-size: var(--font-size-subtitle);
     color: var(--font-color-1);
     font-weight: var(--font-weight-1);
-    text-shadow: var(--text-shadow-3);
-    font-weight: var(--font-weight-1);
+    font-weight: var(--font-weight-2);
     text-align: center;
 }
 
 .bg__one {
-    background-image: url("../../Img/Img_produtos/Img_mar.png");
+    background-image: url("../../Img/Img_produtos/Img_transition.jpeg");
 }
 .bg__two {
     background-image: url("../../Img/Img_produtos/Img_mar.png");
@@ -202,7 +201,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-bg-2);
+    background-color: var(--color-bg-3);
     padding: 8rem 0;
 }
 
@@ -213,18 +212,16 @@
 .container__lacos__text h1 {
     font-family: var(--font-2);
     font-size: var(--font-size-title);
-    color: var(--font-color-1);
+    color: var(--font-color-3);
     font-weight: var(--font-weight-1);
-    text-shadow: var(--text-shadow-1);
     font-weight: var(--font-weight-1);
 }
 
 .container__lacos__text p {
     font-family: var(--font-1);
     font-size: var(--font-size-paragraphs);
-    color: var(--font-color-1);
-    font-weight: var(--font-weight-2);
-    text-shadow: var(--text-shadow-2);
+    color: var(--font-color-3);
+    font-weight: var(--font-weight-3);
     padding: 2rem 0; 
     line-height: 1.5;
 }
@@ -232,9 +229,7 @@
 .container__lacos__text h2 {
     font-family: var(--font-2);
     font-size: var(--font-size-subtitle);
-    color: var(--font-color-1);
-    font-weight: var(--font-weight-1);
-    text-shadow: var(--text-shadow-3);
+    color: var(--font-color-3);
     font-weight: var(--font-weight-1);
 }
 
@@ -250,17 +245,18 @@
     font-size: var(--font-size-paragraphs);
     color: var(--font-color-1);
     font-weight: var(--font-weight-2);
-    text-shadow: var(--text-shadow-2);
     text-decoration: none;
     border-radius: 0.5rem;
     padding: 0.8rem 1.6rem;
     background-color: var(--color-1);
+    transition: 0.5s ease-out;
+    border: 1px solid var(--color-1);
 }
 
 .container__lacos__btns a:hover {
-    transform: scale(1.1);
-    box-shadow: 4px 4px 1px var(--color-3);
-    transition: 0.5s;
+    background-color: var(--color-bg-3);
+    transition: 0.5s ease-in-out;
+    color: var(--color-1);
 }
 
 
@@ -332,6 +328,19 @@
 .container__lacos__text--right {
     padding-left: 3rem;
 }
+
+.container__lacos__text--right h1 {
+    color: var(--font-color-1);
+}
+
+.container__lacos__text--right p  {
+    color: var(--font-color-1);
+}
+
+.container__lacos__text--right h2 {
+    color: var(--font-color-1);
+}
+
 
 /* Produtos acessorios */
 
