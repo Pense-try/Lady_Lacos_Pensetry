@@ -184,7 +184,7 @@
 }
 
 .bg__one {
-    background-image: url("../../Img/Img_produtos/Img_transition.jpeg");
+    background-image: url("../../Img/Img_produtos/Img__bgf.png");
 }
 .bg__two {
     background-image: url("../../Img/Img_produtos/Img_mar.png");
@@ -348,11 +348,19 @@
 @media screen and (max-width: 730px) {
     .container__transitions {
         height: 15vh;
+        padding: 6rem 0;
     }
     .container__transitions h1 {
         font-size: 1.4rem;
     }
-    .container__lacos, .container__roupas {
+    .container__lacos {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 4rem 0;
+    }
+     .container__roupas {
         flex-direction: column;
         align-items: center;
         justify-content: center;
