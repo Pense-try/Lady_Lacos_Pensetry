@@ -58,7 +58,6 @@ footer {
     font-size: var(--font-size-paragraphs);
     color: var(--font-color-1);
     font-weight: var(--font-weight-2);
-    text-shadow: var(--text-shadow-2);
     border: solid 2px var(--font-color-1);
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;

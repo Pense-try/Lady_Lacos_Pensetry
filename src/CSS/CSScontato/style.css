@@ -1,0 +1,138 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg-1);
+}
+
+.container__whatsapp {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg-3);
+}
+
+.container__whatsapp h1 {
+    font-family: var(--font-1);
+    font-size: 2rem;
+    color: var(--font-color-3);
+    font-weight: var(--font-weight-1);
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.container__whatsapp p {
+    font-family: var(--font-1);
+    font-size: 1.4rem;
+    color: var(--font-color-3);
+    font-weight: var(--font-weight-2);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container__whatsapp__atendentes ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__whatsapp__atendentes ul li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}   
+
+.container__whatsapp__atendentes ul li h2 {
+    font-family: var(--font-1);
+    font-size: 1.5rem;
+    color: var(--font-color-3);
+    font-weight: var(--font-weight-1);
+    text-align: center;
+    padding-bottom: 1rem;
+}   
+
+.container__whatsapp__atendentes ul li a {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: last baseline;
+    gap: 1rem;
+    font-family: var(--font-1);
+    font-size: var(--font-size-paragraphs);
+    color: var(--font-color-1);
+    font-weight: var(--font-weight-2);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.6rem;
+    background-color: var(--color-1);
+    transition: 0.5s ease-out;
+    border: 1px solid var(--color-1);
+}   
+
+.container__whatsapp__atendentes ul li a:hover {
+    background-color: var(--color-bg-3);
+    transition: 0.5s ease-in-out;
+    color: var(--color-1);
+}
+
+.container__link__voltar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 4rem;
+}
+
+.container__link__voltar a {
+    font-family: var(--font-1);
+    font-size: 1.4rem;
+    color: var(--font-color-3);
+    font-weight: var(--font-weight-3);
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__link__voltar a:hover {
+    text-decoration: underline;
+}
+
+.container__link__voltar i {
+    color: var(--color-1);
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 730px) {
+    .container__whatsapp {
+        width: 100vw;
+    }
+    .container__whatsapp h1 {
+        font-size: 1.4rem;
+        padding-top: 4rem;
+    }
+    .container__whatsapp p {
+        font-size: 1rem;
+        padding-top: 2rem;
+    }
+    .container__whatsapp__atendentes ul li h2 {
+        font-size: 1.2rem;
+    }   
+    .container__whatsapp__atendentes ul li a {
+        width: 65vw;
+        font-size: 0.8rem;
+    }
+}
+  
